@@ -147,6 +147,13 @@ class _InstrumentedGroup(click.Group):
 @click.version_option(package_name="mallcop")
 def cli() -> None:
     """Mallcop: Security monitoring for small cloud operators."""
+    import warnings as _warnings
+    _warnings.warn(
+        "Python mallcop is in maintenance mode. The active implementation is at "
+        "github.com/mallcop-app/mallcop (Go). See README for migration notes.",
+        DeprecationWarning,
+        stacklevel=2,
+    )
 
 
 # Register sub-groups imported from other modules
