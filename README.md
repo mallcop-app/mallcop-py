@@ -1,3 +1,12 @@
+> [!IMPORTANT]
+> **This Python implementation of mallcop has been superseded by the Go version.**
+>
+> - Active development: [github.com/mallcop-app/mallcop](https://github.com/mallcop-app/mallcop) (Go)
+> - Connectors: [github.com/mallcop-app/mallcop-connectors](https://github.com/mallcop-app/mallcop-connectors)
+> - This package (`mallcop` on PyPI) is in maintenance mode at 0.5.x — only security fixes will be applied.
+> - The Go version drops these Python connectors: `container_logs`, `supabase`, `vercel`, `openclaw_config_drift`. Operators depending on those should stay on 0.5.x or contribute Go ports upstream.
+> - License changes from Apache-2.0 (this repo) to MIT (Go repo).
+
 # mallcop
 
 Security monitoring for small cloud operators. AI-native. Self-hosted. Near-$0.
